@@ -1,0 +1,368 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:translationY="50dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:id="@+id/question1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Γιατί να κάνω εμβόλιο για τον κορωνοϊό SARS-CoV-2;"
+            android:translationY="5dp" />
+
+        <Button
+            android:id="@+id/showAnswer1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/display_answer" />
+
+        <TextView
+
+            android:id="@+id/answer1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=" Τα εμβόλια παρασκευάζονται με σκοπό την αντιμετώπιση νοσημάτων που δεν είναι δυνατόν να ελεγχθούν μόνο με την εφαρμογή άλλων μέτρων δημόσιας υγείας. Στόχος τους είναι να περιορίσουν και να εξαλείψουν νοσήματα με υψηλή μεταδοτικότητα, με σοβαρές επιπτώσεις στην υγεία των ανθρώπων, με υψηλή θνητότητα, με μεγάλη επιβάρυνση στα συστήματα υγείας, αλλά και με δυσμενείς οικονομικές επιπτώσεις στην κοινωνία. Ο κορωνοϊός SARS-CoV-2 είναι ένας νέος ιός που μέσα σε ένα χρόνο από την εμφάνισή του επηρέασε δραματικά τις ζωές όλων των ανθρώπων παγκοσμίως. Έχει υψηλή μεταδοτικότητα με αποτέλεσμα να είναι αδύνατο να ελεγχθεί μόνο με την εφαρμογή των άλλων, πιο γνωστών σε όλους μας, μέτρων δημόσιας υγείας, επιβαρύνει σοβαρά σε πολλές περιπτώσεις την υγεία των νοσούντων, μπορεί να οδηγήσει σε απώλεια πολλών ανθρώπινων ζωών ακόμα υγιών ατόμων, επηρεάζει σημαντικά την καθημερινότητα όλων, δοκιμάζει τα συστήματα υγείας και δημιουργεί ανεπανόρθωτες οικονομικές επιπτώσεις σε όλον τον πλανήτη."
+            android:visibility="gone" />
+
+        <TextView
+            android:id="@+id/textView17"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/question2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Πόσο αποτελεσματικό είναι το εμβόλιο για τον κορωνοϊό SARS-CoV-2;" />
+
+        <Button
+            android:id="@+id/showAnswer2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/display_answer" />
+
+        <TextView
+            android:id="@+id/answer2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Αυτή τη στιγμή πολλά εμβόλια για τον κορωνοϊό SARS-CoV-2 βρίσκονται σε διαδικασία κλινικών δοκιμών.
+Το πόσο αποτελεσματικό είναι ένα εμβόλιο εξαρτάται πάντα από το συγκεκριμένο εμβόλιο, τη σωστή διενέργεια του εμβολιασμού και από παράγοντες που αφορούν την ανοσιακή
+απάντηση του κάθε ατόμου. Τα πρώτα εμβόλια που είναι προς έγκριση φαίνονται να είναι αρκετά αποτελεσματικά, έως και 95%.
+ Οι αρμόδιοι ελεγκτικοί μηχανισμοί που εγκρίνουν την κυκλοφορία των εμβολίων θέτουν την αποτελεσματικότητα και την ασφάλεια των εμβολίων ως προτεραιότητα."
+            android:visibility="gone" />
+
+
+        <TextView
+            android:id="@+id/textView18"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+
+        <TextView
+            android:id="@+id/question3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Μπορεί να κάνω εμβόλιο και παρ’ όλα αυτά να νοσήσω από COVID-19;" />
+
+        <Button
+            android:id="@+id/showAnswer3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/display_answer" />
+
+        <TextView
+            android:id="@+id/answer3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Κανένα εμβόλιο δεν είναι 100% αποτελεσματικό. Άρα μπορεί σε κάποιες περιπτώσεις να ασθενήσει κάποιος από το νέο κορωνοϊό παρόλο που έκανε το εμβόλιο. Επομένως θα πρέπει οι πολίτες να συνεχίσουν να παίρνουν τις
+συνιστώμενες προφυλάξεις για την αποφυγή μόλυνσης δηλαδή οι εμβολιασμένοι θα πρέπει να συνεχίσουν τη χρήση μάσκας,
+την τήρηση κοινωνικής απόστασης, την τακτική και σχολαστική υγιεινή των χεριών και την καθαριότητα του χώρου όπου ζουν ή εργάζονται.
+Τα εμβόλια έναντι της νόσου COVID-19 φαίνεται ότι μειώνουν την πιθανότητα να νοσήσει κάποιος από τη νόσο. Κάθε εμβόλιο έχει
+υποβληθεί σε κλινικές δοκιμές, σε διάφορες χώρες και έχει αποδεκτό προφίλ ασφάλειας. Ήδη έχουν χορηγηθεί περισσότερες από 65.000.000
+δόσεις σε 56 χώρες παγκοσμίως. Χρειάζονται μερικές εβδομάδες για να μπορέσει κάποιος να αναπτύξει ανοσία και να
+είναι προστατευμένος μετά τη χορήγηση του εμβολίου.
+Μερικοί άνθρωποι ενδέχεται να νοσήσουν από COVID-19 παρά το ότι έχουν εμβολιαστεί,
+αλλά η νόσηση μπορεί να είναι λιγότερο σοβαρή."
+            android:visibility="gone" />
+
+        <TextView
+            android:id="@+id/textView19"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+
+        <TextView
+            android:id="@+id/question4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Εφόσον το εμβόλιο δεν με προστατεύει 100% από τη νόσηση από το νέο κορωνοϊό γιατί τελικά να το κάνω;" />
+
+        <Button
+            android:id="@+id/showAnswer4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/display_answer" />
+
+        <TextView
+            android:id="@+id/answer4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Τα νέα εμβόλια όπως προκύπτει από τις κλινικές δοκιμές μειώνουν τον κίνδυνο εκδήλωσης συμπτωμάτων
+και πιθανά τον κίνδυνο σοβαρής νόσησης από τον ιό. Αυτό είναι πολύ σημαντικό, γιατί ταυτόχρονα
+μειώνεται ο κίνδυνος νοσηλειών, ο κίνδυνος απώλειας ανθρώπινων ζωών και πιθανά ο κίνδυνος
+μακροχρόνιων επιπλοκών που προκαλεί ο ιός σε κάποιους ασθενείς, όπως επιπλοκές από το καρδιαγγειακό
+και το αναπνευστικό σύστημα.
+Ανάλογη εμπειρία τέτοιας αποτελεσματικότητας υπάρχει και με άλλα εμβόλια που χρησιμοποιούνται
+επί έτη στην ιατρική. Για παράδειγμα το εμβόλιο της γρίπης κατά του H1N1 δεν είναι το ίδιο
+αποτελεσματικό κάθε έτος στον έλεγχο του νοσήματος. Διάφοροι παράγοντες, όπως η ικανότητα του
+ιού να μεταλλάσσεται, το στέλεχος του ιού που θα επικρατήσει κάθε χρόνο, η γεωγραφική περιοχή,
+μπορεί να επηρεάσουν την αποτελεσματικότητα του εμβολίου στον έλεγχο του νοσήματος. Ακόμη όμως και
+λιγότερο αποτελεσματικά εμβόλια γρίπης στο παρελθόν φαίνεται ότι συνολικά μειώνουν τον κίνδυνο σοβαρής
+νόσησης στον πληθυσμό."
+            android:visibility="gone" />
+
+
+        <TextView
+            android:id="@+id/textView20"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+
+
+        <TextView
+            android:id="@+id/question5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Μπορεί να κάνω το εμβόλιο και να μην νοσήσω αλλά να είμαι ασυμπτωματικός φορέας του ιού;" />
+
+        <Button
+            android:id="@+id/showAnswer5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/display_answer" />
+
+        <TextView
+            android:id="@+id/answer5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Δεν γνωρίζουμε ακόμα αν όσοι εμβολιαστούν με τα νέα εμβόλια μπορεί να μολυνθούν από τον ιό και να
+είναι ασυμπτωματικοί, άρα μπορεί ακόμα να μεταδίδουν υπό αυτές τις συνθήκες τον ιό. Για αυτό είναι
+σημαντικό ακόμα και όσοι εμβολιαστούν να εφαρμόζουν τα υπόλοιπα μέτρα δημόσιας υγείας κατά του νέου
+ιού, δηλαδή τη χρήση μάσκας, την τήρηση κοινωνικής απόστασης, την τακτική και σχολαστική υγιεινή
+των χεριών και την καθαριότητα του χώρου όπου ζουν ή εργάζονται. Προς το παρόν από τις κλινικές
+δοκιμές φαίνεται ότι τα νέα εμβόλια προστατεύουν περισσότερο από τη νόσηση από COVID-19 παρά μειώνουν
+σημαντικά το κίνδυνο μετάδοσης του ιού. Μένει να δούμε αν τα νέα εμβόλια που αναμένεται να ολοκληρώσουν
+τις απαραίτητες κλινικές δοκιμές θα είναι αποτελεσματικά στην μείωση της μετάδοσης του ιού."
+            android:visibility="gone" />
+
+
+        <TextView
+            android:id="@+id/textView21"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+
+
+        <TextView
+            android:id="@+id/question6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Υπάρχει περίπτωση να νοσήσω από τον κορωνοϊό SARS-CoV-2 εξαιτίας του εμβολίου;" />
+
+        <Button
+            android:id="@+id/showAnswer6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/display_answer" />
+
+        <TextView
+            android:id="@+id/answer6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Κανένα από τα εμβόλια προς μελέτη και έγκριση για τον κορωνοϊό SARS-CoV-2 δεν περιέχουν ολόκληρο
+τον ιό. Τα περισσότερα πλέον εμβόλια που χρησιμοποιούνται στην ιατρική περιέχουν μόνο τμήματα
+των ιών που είναι ικανά να οδηγήσουν στην παραγωγή προστατευτικών αντισωμάτων κατά του ιού στο
+άτομο που θα χορηγηθούν. Έτσι ο εμβολιαζόμενος δεν κινδυνεύει σε καμία περίπτωση να αρρωστήσει
+από τον κορωνοϊό εξαιτίας του εμβολίου.
+Υπάρχει όμως η πιθανότητα να έχει ήδη κολλήσει τη νόσο COVID-19 και να μην το έχει
+συνειδητοποιήσει αν τα συμπτώματα γίνουν έκδηλα μόνο μετά τον εμβολιασμό. Αν και ένας ήπιος
+πυρετός μπορεί να εμφανιστεί εντός μιας ή δύο ημερών από τον εμβολιασμό, αν κανείς παρουσιάσει
+άλλα συμπτώματα της νόσου COVID-19 (όπως νέο συνεχόμενο βήχα, υψηλό πυρετό ή ο πυρετός διαρκεί
+περισσότερο, ανοσμία, αγευσία) θα πρέπει να παραμείνει στο σπίτι και να προγραμματίσει να κάνει
+εργαστηριακό έλεγχο."
+            android:visibility="gone" />
+
+
+        <TextView
+            android:id="@+id/textView22"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+
+
+        <TextView
+            android:id="@+id/question7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Έχω εκτεθεί στον κορωνοϊό SARS-CoV-2 ή έχω νοσήσει από COVID-19. Χρειάζεται να κάνω το εμβόλιο;" />
+
+        <Button
+            android:id="@+id/showAnswer7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/display_answer" />
+
+        <TextView
+            android:id="@+id/answer7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Σύμφωνα με τα δεδομένα από τις κλινικές δοκιμές, τα εμβόλια mRNA για την COVID-19 είναι ασφαλή
+σε άτομα με ένδειξη προηγούμενης λοίμωξης από SARS-CoV-2. Η δυνατότητα εμβολιασμού πρέπει να
+προσφέρεται ανεξάρτητα από το ιστορικό προηγούμενης συμπτωματικής ή ασυμπτωματικής λοίμωξης από
+SARS-CoV-2. Δεν συστήνεται έλεγχος με PCR ή με rapid test αντιγόνου ή ορολογικός έλεγχος αντισωμάτων
+προκειμένου να ληφθεί απόφαση για εμβολιασμό.
+Ο εμβολιασμός συμπτωματικών ατόμων με οξεία λοίμωξη SARS-CoV-2 πρέπει να αναβάλλεται μέχρι την
+ανάρρωση και μέχρις ότου πληρούνται τα κριτήρια διακοπής της απομόνωσής τους. Η σύσταση αυτή ισχύει
+για όσα άτομα έχουν οξεία λοίμωξη SARS-CoV-2 και πρόκειται να λάβουν την 1η είτε τη 2η δόση του
+εμβολίου. Παρότι δεν έχει οριστεί ελάχιστο επιθυμητό μεσοδιάστημα μεταξύ της λοίμωξης από SARS-CoV-2
+και του εμβολιασμού, τα τρέχοντα δεδομένα υποδηλώνουν ότι οι επαναμολύνσεις είναι σπάνιες κατά το
+χρονικό διάστημα των 90 ημερών μετά την αρχική μόλυνση. Σύμφωνα με τα παραπάνω, εάν είναι επιθυμητό,
+ο εμβολιασμός των ατόμων με τεκμηριωμένη οξεία λοίμωξη από SARS-CoV-2 μπορεί να καθυστερήσει μέχρι
+το τέλος της περιόδου των 90 ημερών."
+            android:visibility="gone" />
+
+
+        <TextView
+            android:id="@+id/textView23"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+
+
+        <TextView
+            android:id="@+id/question8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Έχω ακούσει ότι το εμβόλιο παρασκευάστηκε με νέες τεχνικές σε σχέση με τα άλλα εμβόλια. Αυτό πόσο επικίνδυνο είναι;" />
+
+        <Button
+            android:id="@+id/showAnswer8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/display_answer" />
+
+        <TextView
+            android:id="@+id/answer8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Αν και στο παρελθόν έχουν υπάρξει νοσήματα από άλλους κορωνοϊούς (το 2003- το οξύ σοβαρό
+αναπνευστικό σύνδρομο (SARS) και το 2012- το αναπνευστικό σύνδρομο MERS-CoV) τελικά δεν
+παρασκευάστηκαν εμβόλια για αυτούς τους ιούς. Το γεγονός αυτό έκανε πιο δύσκολη την παρασκευή
+ενός εμβολίου κατά του κορωνοϊού, μιας και δεν υπήρχε προηγούμενη εμπειρία. Ταυτόχρονα η
+παρασκευή και η έγκριση ενός νέου εμβολίου περιλαμβάνει πολλά στάδια και ελεγκτικούς μηχανισμούς
+με σκοπό το εμβόλιο να είναι αποτελεσματικό και ασφαλές προς χρήση. Οι τεχνικές παρασκευής των
+διαφόρων εμβολίων μπορεί να διαφέρουν και όσο προχωρούν οι γνώσεις εξελίσσονται σύμφωνα με τα
+νεότερα επιστημονικά δεδομένα. Στη διάρκεια της ιστορίας παρασκευής των εμβολίων, νέες τεχνικές
+εφαρμόστηκαν με στόχο πάντα την αποτελεσματικότητα και την ασφάλειά τους. Σε κάθε νέα τεχνική που
+εφαρμόζεται τα στάδια ποιοτικού ελέγχου και έγκρισής τους παραμένουν καθώς η παρασκευή ενός νέου
+εμβολίου έχει ως πρώτιστο μέλημα την προάσπιση της δημόσιας υγείας."
+            android:visibility="gone" />
+
+
+        <TextView
+            android:id="@+id/textView24"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+
+
+        <TextView
+            android:id="@+id/question9"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Λόγω της πανδημίας του κορωνοϊού SARS-CoV-2 υπήρξε επιτακτική
+ανάγκη το συγκεκριμένο εμβόλιο να παρασκευαστεί πολύ γρηγορότερα σε σχέση με άλλα εμβόλια.
+Αυτό σημαίνει ότι μπορεί να μην είναι το ίδιο ασφαλές όσο τα άλλα εμβόλια;" />
+
+        <Button
+            android:id="@+id/showAnswer9"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/display_answer" />
+
+        <TextView
+            android:id="@+id/answer9"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Πράγματι η νέα πανδημία από το νέο κορωνοϊό SARS-CoV-2 και οι σημαντικές επιπτώσεις αυτής στις
+ζωές των ανθρώπων άσκησαν μεγάλη πίεση για την όσο το δυνατόν ταχύτερη παρασκευή ενός εμβολίου
+κατά του νέου ιού. Για το λόγο αυτό επιταχύνθηκαν, όσο το δυνατόν περισσότερο, οι διαδικασίες
+παρασκευής και έγκρισής του και χρηματοδοτήθηκαν εταιρίες που εμπλέκονται στην παραγωγή του από
+διάφορα κράτη. Ωστόσο, τα στάδια εκτίμησης της αποτελεσματικότητας και ασφάλειας του εμβολίου και
+οι αρμόδιοι ελεγκτικοί μηχανισμοί δεν παρακάμπτονται ποτέ καθώς πάντα η παραγωγή των εμβολίων
+συνάδει με τις δύο αυτές απαρέγκλιτες παραμέτρους: την αποτελεσματικότητα και την ασφάλειά τους."
+            android:visibility="gone" />
+
+
+        <TextView
+            android:id="@+id/textView25"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+
+
+        <TextView
+            android:id="@+id/question10"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Τα εμβόλια κατά του κορωνοϊού SARS-CoV-2 είναι ασφαλή; Έχουν ανεπιθύμητες ενέργειες; Ποιες είναι αυτές;" />
+
+        <Button
+            android:id="@+id/showAnswer10"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/display_answer" />
+
+        <TextView
+            android:id="@+id/answer10"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=" Τα σύγχρονα δεδομένα από τις κλινικές δοκιμές δείχνουν ότι τα νέα εμβόλια κατά του κορωνοϊού
+SARS-CoV-2 που βρίσκονται σε τελική φάση έγκρισης ή έχουν πάρει έγκριση έχουν αποδεκτό προφίλ
+ασφάλειας. Οι περισσότερες ανεπιθύμητες ενέργειες των εμβολίων παρουσιάζονται τις πρώτες εβδομάδες
+με μήνες μετά από τη χορήγησή τους και οι ελεγκτικοί μηχανισμοί θέτουν ως προϋπόθεση την παρέλευση
+αυτού του διαστήματος στις κλινικές δοκιμές προτού το εμβόλιο προχωρήσει σε περαιτέρω διαδικασία ελέγχου και έγκρισης.
+Όπως όλα τα γνωστά εμβόλια έτσι και τα νέα κατά του SARS-CoV-2 μπορεί να έχουν ανεπιθύμητες ενέργειες.
+Οι περισσότερες από αυτές είναι ήπιες και βραχυπρόθεσμες, και δεν εμφανίζονται σε όλους.
+Τέτοιες ανεπιθύμητες ενέργειες είναι αίσθημα πόνου και ευαισθησίας στο χέρι όπου χορηγήθηκε το
+εμβόλιο που τείνει να χειροτερεύει περίπου 1-2 ημέρες μετά το εμβόλιο, αίσθημα κόπωσης, πονοκέφαλο,
+γενικούς πόνους ή ήπια συμπτώματα τύπου γρίπης. Αν και o πυρετός δεν είναι σπάνιος για δύο έως
+τρεις ημέρες, η υψηλή θερμοκρασία είναι ασυνήθιστη και μπορεί να υποδηλώνει νόσο COVID-19 ή άλλη
+λοίμωξη. Μια ασυνήθιστη παρενέργεια είναι η λεμφαδενοπάθεια. Η ανάπαυση και η λήψη κανονικής δόσης
+παρακεταμόλης βοηθούν να αισθανθεί κάποιος καλύτερα. Τα συμπτώματα από τις παρενέργειες συνήθως
+διαρκούν λιγότερο από μία εβδομάδα. Ήπια συμπτώματα μετά τη πρώτη δόση, δεν αποτελούν αντένδειξη
+για εμβολιασμό με δεύτερη δόση, που είναι αναγκαία για την καλύτερη προστασία έναντι του ιού.
+Αν τα συμπτώματα επιδεινώνονται ή υπάρχει ανησυχία καλό είναι να ενημερώνεται ο θεράπων ιατρός
+προκειμένου να υπάρξει σωστή αξιολόγηση. Οι ανεπιθύμητες ενέργειες των εμβολίων δηλώνονται μέσω
+του συστήματος της Κίτρινης Κάρτας την οποία μπορεί κανείς να αναζητήσει διαδικτυακά (https://www.eof.gr/web/guest/yellowgeneral )."
+            android:visibility="gone" />
+
+        <TextView
+            android:id="@+id/textView16"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textSize="50dp"
+            android:visibility="visible" />
+
+    </LinearLayout>
+
+
+</ScrollView>

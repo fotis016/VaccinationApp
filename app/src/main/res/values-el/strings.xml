@@ -1,0 +1,44 @@
+<resources>
+    <string name="app_name">VaccinationApp</string>
+    <string name="action_settings">Settings</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="open">open</string>
+    <string name="close">close</string>
+    <string name="home">Κεντρικό Μενού</string>
+    <string name="statistics">Στατιστικά Εμβολιασμών</string>
+    <string name="gallery">Άλμπουμ</string>
+    <string name="vaccination">Ραντεβού</string>
+    <string name="qna">QnA</string>
+    <string name="first_name">Όνομα</string>
+    <string name="last_name">Επώνυμο</string>
+    <string name="telephone">Τηλέφωνο</string>
+    <string name="date">Ημερομηνία</string>
+    <string name="new_vaccination_appointment">Νέο ραντεβού εμβολιασμού</string>
+    <string name="login">Είσοδος</string>
+    <string name="new_appointment">Νέο ραντεβού</string>
+    <string name="edit_appointment">Αλλαγή ραντεβού</string>
+    <string name="cancel_appointment">Ακύρωση ραντεβού</string>
+    <string name="login_with_your_credentials">Είσοδος με τα στοιχεία σας</string>
+    <string name="check_appointment">Έλεγχος ραντεβού</string>
+    <string name="cancel_your_appointment">Ακύρωση του ραντεβού σας</string>
+    <string name="edit_your_registered_appointment">Αλλαγή του ραντεβού σας</string>
+    <string name="change_appointment">Αλλαγή ραντεβού</string>
+    <string name="display_answer">Εμφάνιση απάντησης</string>
+    <string name="fill_in_creds_toast">Παρακαλώ εισάγετε όλα τα απαραίτητα στοιχεία</string>
+    <string name="succ_appoint_toast">Έχουμε λάβει το ραντεβού σας, τα στοιχεία σας είναι: </string>
+    <string name="wrong_creds_toast">Τα στοιχεία σας είναι λανθασμένα ή δεν έχετε καταχωρίσει ραντεβού</string>
+    <string name="appoint_registered_toast">Το ραντεβού σας έχει καταχωρυθεί επιτυχώς στην βάση δεδομένων μας</string>
+    <string name="appoint_not_registered_toast">Το ραντεβού σας δεν έχει καταχωρυθεί στην βάση δεδομένων μας</string>
+    <string name="already_registered_toast">Χρήστης έχει ήδη καταχωρίσει ραντεβού χρησιμοποιώντας το συγκεκριμένο ΑΜΚΑ</string>
+    <string name="appoint_updated_toast">Το ραντεβού σας έχει ανανεωθεί</string>
+    <string name="update_failed_toast">Τα στοιχεία του ραντεβού σας δεν έχουν ανανεωθεί</string>
+    <string name="appoint_not_found_toast">Δεν βρέθηκε καταχωρημένο ραντεβού με το ΑΜΚΑ και επώνυμο που εισάγατε</string>
+    <string name="succ_cancel_appoint_toast">Το ραντεβού σας έχει ακυρωθεί επιτυχώς</string>
+</resources>

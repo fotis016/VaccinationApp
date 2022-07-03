@@ -1,0 +1,44 @@
+<resources>
+    <string name="app_name">VaccinationApp</string>
+    <string name="action_settings">Settings</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="open">open</string>
+    <string name="close">close</string>
+    <string name="home">Home</string>
+    <string name="statistics">Statistics</string>
+    <string name="gallery">Gallery</string>
+    <string name="vaccination">Vaccination</string>
+    <string name="qna">QnA</string>
+    <string name="first_name">First name</string>
+    <string name="last_name">Last name</string>
+    <string name="telephone">Telephone</string>
+    <string name="date">Date</string>
+    <string name="new_vaccination_appointment">New Vaccination Appointment</string>
+    <string name="login">Login</string>
+    <string name="new_appointment">New Appointment</string>
+    <string name="edit_appointment">Edit Appointment</string>
+    <string name="cancel_appointment">CANCEL APPOINTMENT</string>
+    <string name="login_with_your_credentials">Login with your credentials</string>
+    <string name="check_appointment">Check appointment</string>
+    <string name="cancel_your_appointment">Cancel your Appointment</string>
+    <string name="edit_your_registered_appointment">Edit your registered appointment</string>
+    <string name="change_appointment">Change Appointment</string>
+    <string name="display_answer">Display Answer</string>
+    <string name="fill_in_creds_toast">Please fill in all the required credentials</string>
+    <string name="succ_appoint_toast">We have received your appointment, your registered credentials are: </string>
+    <string name="wrong_creds_toast">Your credentials are wrong or you have not requested an appointment</string>
+    <string name="appoint_registered_toast">Appointment has been successfully registered on the database.</string>
+    <string name="appoint_not_registered_toast">Appointment failed to register on the database</string>
+    <string name="already_registered_toast">User with specific AMKA has already requested an appointment.</string>
+    <string name="appoint_updated_toast">Your appointment has been updated</string>
+    <string name="update_failed_toast">Failed to update appointment credentials</string>
+    <string name="appoint_not_found_toast">Could not find appointment with specified AMKA and last name</string>
+    <string name="succ_cancel_appoint_toast">Your appointment has been successfully cancelled.</string>
+</resources>

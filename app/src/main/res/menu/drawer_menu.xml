@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="Select">
+        <menu>
+            <item
+                android:id="@+id/home"
+                android:icon="@drawable/ic_baseline_home_24"
+                android:title="@string/home" />
+            <item
+                android:id="@+id/statistics"
+                android:title="@string/statistics" />
+            <item
+                android:id="@+id/gallery"
+                android:title="@string/gallery" />
+            <item
+                android:id="@+id/vaccination"
+                android:title="@string/vaccination" />
+            <item
+                android:id="@+id/QnA"
+                android:title="@string/qna" />
+        </menu>
+    </item>
+
+</menu>

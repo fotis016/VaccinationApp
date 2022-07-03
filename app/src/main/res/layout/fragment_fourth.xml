@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:id="@+id/firstName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/first_name"
+        android:textSize="25dp"
+        android:translationY="200dp" />
+
+    <EditText
+        android:id="@+id/lastName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/last_name"
+        android:textSize="25dp"
+        android:translationY="250dp" />
+
+    <EditText
+        android:id="@+id/AMKA"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="AMKA"
+        android:textSize="25dp"
+        android:translationY="300dp" />
+    <EditText
+        android:id="@+id/telephone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/telephone"
+        android:textSize="25dp"
+        android:translationY="350dp" />
+    <EditText
+        android:id="@+id/email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Email"
+        android:textSize="25dp"
+        android:translationY="400dp" />
+
+    <EditText
+        android:id="@+id/date"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/date"
+        android:textSize="25dp"
+        android:translationY="450dp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/new_vaccination_appointment"
+        android:textSize="20dp"
+        android:translationX="70dp"
+        android:translationY="100dp" />
+
+    <Button
+        android:id="@+id/login"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/login"
+        android:translationX="315dp"
+        android:translationY="650dp" />
+
+    <Button
+        android:id="@+id/register"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/new_appointment"
+        android:translationX="105dp"
+        android:translationY="520dp" />
+
+    <Button
+        android:id="@+id/editAppointment"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/edit_appointment"
+        android:translationY="600dp" />
+
+    <Button
+        android:id="@+id/deleteAppointment"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/cancel_appointment"
+        android:translationY="650dp" />
+</RelativeLayout>

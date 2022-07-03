@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/linearLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FirstFragment">
+
+
+   <ImageView
+       android:id="@+id/imageView"
+       android:layout_width="0dp"
+       android:layout_height="0dp"
+       android:layout_marginStart="32dp"
+       android:layout_marginTop="104dp"
+       android:layout_marginEnd="32dp"
+       android:layout_marginBottom="39dp"
+       android:src="@drawable/home"
+       app:layout_constraintBottom_toTopOf="@+id/textView2"
+       app:layout_constraintEnd_toEndOf="parent"
+       app:layout_constraintStart_toStartOf="parent"
+       app:layout_constraintTop_toTopOf="parent" />
+
+   <TextView
+       android:id="@+id/textView2"
+       android:layout_width="380dp"
+       android:layout_height="135dp"
+       android:layout_marginStart="16dp"
+       android:layout_marginEnd="16dp"
+       android:layout_marginBottom="21dp"
+       android:text="Για το εμβόλιο της JANSSEN Σύμφωνα με τον Ευρωπαϊκό Οργανισμό, τα άτομα που διαγιγνώσκονται με θρομβοπενία εντός 3 εβδομάδων από τον εμβολιασμό με το εμβόλιο της Janssen, πρέπει να εξετάζονται άμεσα για σημάδια θρόμβωσης. Παρομοίως, τα άτομα που παρουσιάζουν θρόμβωση εντός 3 εβδομάδων από τον εμβολιασμό πρέπει να εξετάζονται για θρομβοπενία."
+       app:layout_constraintBottom_toTopOf="@+id/textView3"
+       app:layout_constraintEnd_toEndOf="parent"
+       app:layout_constraintStart_toStartOf="parent"
+       app:layout_constraintTop_toBottomOf="@+id/imageView" />
+
+   <TextView
+       android:id="@+id/textView3"
+       android:layout_width="392dp"
+       android:layout_height="149dp"
+       android:layout_marginStart="6dp"
+       android:layout_marginEnd="6dp"
+       android:layout_marginBottom="39dp"
+       android:text="Για το εμβόλιο της MODERNA. Ο Ευρωπαϊκός Οργανισμός αναγνώρισε τη διάρροια μετά τον εμβολιασμό ως νέα παρενέργεια του εμβολίου COVID-19 της Moderna. Επίσης κατέληξε στο συμπέρασμα ότι οι πληροφορίες σχετικά με τις καθυστερημένες αντιδράσεις στο σημείο της ένεσης θα πρέπει να προστεθούν στις πληροφορίες προϊόντος του εμβολίου. Τα χαρακτηριστικά αυτών των παρενεργειών, αξιολογούνται περαιτέρω για να συμπεριληφθούν στις πληροφορίες του προϊόντος."
+       app:layout_constraintBottom_toTopOf="@+id/textView7"
+       app:layout_constraintEnd_toEndOf="parent"
+       app:layout_constraintStart_toStartOf="parent"
+       app:layout_constraintTop_toBottomOf="@+id/textView2" />
+
+   <TextView
+       android:id="@+id/textView7"
+       android:layout_width="394dp"
+       android:layout_height="0dp"
+       android:layout_marginStart="2dp"
+       android:layout_marginEnd="2dp"
+       android:layout_marginBottom="4dp"
+       android:text="Για το εμβόλιο της Pfizer Ο Οργανισμός αξιολόγησε περιστατικά τοπικού οιδήματος που αναφέρθηκαν με το Comirnaty σε ανθρώπους με ιστορικό ενέσεων με δερματικά πληρωτικά (ουσίες ομοιάζουσες με γέλη που ενίονται κάτω από το δέρμα)."
+       app:layout_constraintBottom_toBottomOf="parent"
+       app:layout_constraintEnd_toEndOf="parent"
+       app:layout_constraintHorizontal_bias="0.0"
+       app:layout_constraintStart_toStartOf="parent"
+       app:layout_constraintTop_toBottomOf="@+id/textView3" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
